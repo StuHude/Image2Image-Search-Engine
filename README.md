@@ -8,14 +8,16 @@
 最后对于指定图片进行搜索得到embedding相似度前n的图片
 
 ## Setting
-`conda create --name yourname`
-`conda activate yourname`
-`pip install -r requirements.txt#配好环境`
+```
+conda create --name yourname
+conda activate yourname
+pip install -r requirements.txt#配好环境
+```
 
 将代码中的pc=Pinecone(api_key=)填上自己的pinecone api_key
 
-`python main.py #启动`
-`python search_only.py#不动数据库，对建好的数据库直接进行以图搜图`
+```python main.py #启动```
+```python search_only.py#不动数据库，对建好的数据库直接进行以图搜图```
 
 
 ## 目前demo
