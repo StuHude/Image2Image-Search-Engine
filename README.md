@@ -26,7 +26,7 @@ pip install -r requirements.txt#配好环境
 对于上传图片进行embedding搜索得到相似度前3的图像
 
 ## Todo-list
-添加Image Captioning，将搜索query换为描述（Blip等生成模型）
-将Unsplash等大数据集作为基座存入pincone
-换掉clip模型（demo用clip是因为可以导包直接调用，本地部署的话换模型，侧重以图搜图也许应该用 大Image Encoder对小Text Encoder的模型？）
-索引查询优化（泰森多边形、预先分类...工程问题）
+### 添加Image Captioning，将搜索query换为描述（Blip等生成模型）
+### 将Unsplash等大数据集作为基座存入pincone
+### 换掉clip模型（demo用clip是因为可以导包直接调用，本地部署的话换模型，侧重以图搜图也许应该用 大Image Encoder对小Text Encoder的模型？）
+### 索引查询优化（泰森多边形、预先分类...工程问题）
