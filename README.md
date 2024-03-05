@@ -37,3 +37,4 @@ pip install -r requirements.txt#配好环境
 - [ ]将Unsplash等大数据集作为基座存入pincone
 - [ ]换掉clip模型（demo用clip是因为可以导包直接调用，本地部署换模型，侧重以图搜图应该用 大Image Encoder对小Text Encoder的模型？）
 - [ ]索引查询优化（泰森多边形、预先分类...工程问题）
+- [ ]文搜图（不然用多模态模型干嘛）
