@@ -1,14 +1,14 @@
 # Image2Image-Search-Engine
 对于一张图片，在整个互联网上找到和它最相似的n张图片
 ## 原理
-**MLM+爬虫+pinecone 
-构建以图搜图引擎**
+**MLM+爬虫+pinecone**
+**构建以图搜图引擎**
 
 以Unsplash大数据集为基座，再对于上传的图片生成图像描述，进行搜索和爬虫爬取图片，一起作为图片数据集，通过多模态模型提取嵌入embedding向量，存储进pinecone向量数据库。
 最后对于指定图片进行搜索得到embedding相似度前n的图片
 
 ## Setting
-'''
+```python
 conda create --name yourname
 conda activate yourname
 pip install -r requirements.txt#配好环境
