@@ -6,8 +6,7 @@
 **构建以图搜图引擎**
 
 以Unsplash大数据集为基座，再对于上传的图片生成图像描述，进行搜索和爬虫爬取图片，一起作为图片数据集  
-通过多模态模型提取嵌入embedding向量，存储进pinecone向量数据库。   
-
+通过多模态模型提取嵌入embedding向量，存储进pinecone向量数据库   
 最后对于指定图片进行搜索得到embedding相似度前n的图片
 
 ## Setting
@@ -34,5 +33,5 @@ pip install -r requirements.txt#配好环境
 ## Todo-list
 - [ ]添加Image Captioning，将搜索query换为描述（Blip等生成模型）
 - [ ]将Unsplash等大数据集作为基座存入pincone
-- [ ]换掉clip模型（demo用clip是因为可以导包直接调用，本地部署的话换模型，侧重以图搜图也许应该用 大Image Encoder对小Text Encoder的模型？）
+- [ ]换掉clip模型（demo用clip是因为可以导包直接调用，本地部署换模型，侧重以图搜图应该用 大Image Encoder对小Text Encoder的模型？）
 - [ ]索引查询优化（泰森多边形、预先分类...工程问题）
