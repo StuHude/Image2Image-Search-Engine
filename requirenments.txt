@@ -1,0 +1,8 @@
+requests
+torch
+openai-clip
+pinecone-client
+matplotlib
+Pillow
+lxml
+beautifulsoup4
